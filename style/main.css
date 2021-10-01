@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:ital,wght@0,300;0,900;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.icon img {
+    width: 30px;
+}
+
+.header-top {
+    font-family: 'Lora', serif;
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between;
+    border-bottom: 0.1px solid grey;
+}
+
+.top-l {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.top-r {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nav-bar {
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(59, 59, 59);
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    margin-left: -3.1%;
+}
+
+.nav-items {
+    list-style: none;
+}
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-items a:focus {
+    background: red;
+}
+.search-bar {
+    width: 30%;
+    justify-content: end;
+    padding-right: 25px;
+    border-left: 1px solid white;
+}
+.nav {
+    width: 70%;
+}
+
+form {
+    display: flex;
+}
+.form-control {
+    border: none;
+    outline: none;
+    width: 260px;
+    background: none;
+    
+}
+
+
+.btn-s {
+    border: none;
+    background: none;
+    color: rgb(128, 122, 122);
+    cursor: pointer;
+}
+
+
+/* Container */
+.container {
+    margin-top: 1.6%;
+}
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    'post1 post1 post2 post3'
+    'post1 post1 post4 post4';
+    gap: 10px;
+}
+
+
+.post1 {
+    grid-area: post1;
+}
+.post2 {
+    grid-area: post2;
+}
+.post3 {
+    grid-area: post3;
+}
+.post4 {
+    grid-area: post4;
+}
+
+.content img {
+    width: 100%;
+}
+
+/* Background color */
+.b-red {
+    background: red;
+    color: #fff;
+    padding: 5px;
+}
+
+
+
+
+/* Flex display */
+.display-flex {
+    display: flex;
+}
+
+/* Padding15 */
+.pd-l0 {
+    padding: 15px;
+}
+.pd-15 {
+    padding: 16px;
+}
