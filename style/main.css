@@ -99,12 +99,18 @@ form {
     grid-template-areas: 
     'post1 post1 post2 post3'
     'post1 post1 post4 post4';
-    gap: 10px;
+    gap: 5px;
 }
 
-
+.post1, .post2, .post3, .post4 {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .post1 {
     grid-area: post1;
+    height: 60vh;
 }
 .post2 {
     grid-area: post2;
@@ -116,9 +122,7 @@ form {
     grid-area: post4;
 }
 
-.content img {
-    width: 100%;
-}
+
 
 /* Background color */
 .b-red {
@@ -141,4 +145,62 @@ form {
 }
 .pd-15 {
     padding: 16px;
+}
+
+
+/* Don't Miss  */
+.title {
+    display: flex;
+    align-items: center;
+}
+.menu-title ul{
+    display: flex;
+}
+.menu-title ul li{
+    margin-left: 20px;
+    padding: 5px;
+    list-style-type: none; 
+}
+.menu-title ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.c-table-l {
+    background: red;
+    width: 35%;
+}
+.c-table-r {
+    background: red;
+}
+
+
+/* list  */
+.list-all {
+    color: rgb(245, 40, 40);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* .color-menu  */
+.color-menu-red {
+    background: rgb(243, 30, 30);
+} 
+.color-menu-purple {
+    background: #1C0C5B;
+} 
+.color-menu-green {
+    background: #77D970;
+} 
+.color-menu-blue {
+    background: #14279B;
+} 
+.color-menu-green-old {
+    background: #39A388;
+} 
+
+
+/* Flex  */
+.flex-display {
+    display: flex;
 }
